@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import logo from './logo.svg';
-
+import UserFavoriteMovies from './UserFavoriteMovies';
 /*
 Use React and the data below to display a list of users alongside their favorite movies.
 
 For detailed instructions, refer to instructions.md.
 */
-
 const profiles = [
   {
     id: 1,
@@ -106,6 +105,7 @@ class App extends Component {
           <h1 className="App-title">ReactND - Coding Practice</h1>
         </header>
         <h2>Favorite Movies</h2>
+		<UserFavoriteMovies profiles={profiles} users={users} movies= {movies} />
       </div>
     );
   }
