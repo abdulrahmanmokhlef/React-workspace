@@ -25,11 +25,11 @@ class Game extends Component {
     const proposedAnswer = Math.floor(Math.random() * 3) + (value1 + value2 + value3);
     return [value1, value2, value3, proposedAnswer];
   };
-
+	
   updateState = newValuesArray => {
     this.setState(currState => ({
       value1: newValuesArray[0],
-      value2: newValuesArray[1],
+      vupdateStatealuesArray[1],
       value3: newValuesArray[2],
       proposedAnswer: newValuesArray[3],
     }));

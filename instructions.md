@@ -2,7 +2,7 @@
 
 You're given a starter template with dummy data.
 
-**Task**: Create a game that shows an equation of the form X+Y+Z=P. Here,
+**Task**:  an equation of the form X+Y+Z=P. Here,
 X, Y, and Z should be random numbers, and P should be the proposed answer. The
 user should be able to answer whether it is true that the sum of X, Y, and Z
 equals the proposed answer P. The user gets a point for each question the user
